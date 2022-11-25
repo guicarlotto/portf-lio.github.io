@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a48d72efee.js" crossorigin="a48d72efee"></script>
     <title>Guilherme Carlotto</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <section class="desk">
         <header>
-            <section class="heade-desk">
+            <section class="header-desk">
                 <div class="logo-light">
-                    <img href="../portf-lio.github.io/imgs/logo_light.png"> 
+                    <img class="logo" src="../imgs/logo.png"> 
                 </div>
                 <menu class="nav-bar-desk">
-                    <li class="desk-menu"><i class="fa-regular fa-envelope"></i><a href="" class="menu">Contato</a></li>
-                    <li class="desk-menu"><i class="fa-solid fa-code-fork"></i><a href="" class="menu">GitHub</a></i></li>
-                    <li class="desk-menu"><i class="fa-brands fa-linkedin"></i><a href="" class="menu">Linkedin</a></i></li>
+                    <li class="desk-menu"><div class="icons"><i class="fa-regular fa-envelope"></i><a href="" class="menu">Contato</a></div></li>
+                    <li class="desk-menu"><div class="icons"><i class="fa-solid fa-code-fork"></i><a href="" class="menu">GitHub</a></div></li>
+                    <li class="desk-menu"><div class="icons"><i class="fa-brands fa-linkedin"></i><a href="" class="menu">Linkedin</a></div></li>
                 </menu>
                 <div></br></div>
             </section>
@@ -25,45 +29,89 @@
         <main class="main-section-desk">
             <section class="sobre-desk">
                 <h1>Sobre Mim</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="sobre-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>     
             </section>
             <section class="skills-desk">
                 <h2>Skills</h2>
                 <div class="skills-group">
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="first">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="first" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="second">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="second" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="third">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="third" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="forth">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="forth" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="fifth">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="fifth" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="sixth">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="sixth" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill">
-                        <label for="first">HTML</label>
-                        <input type="radio" name="skill-accordion" id="first" checked>
-                        <div class="skill-content"><p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p></div>
+                        <label for="seventh">
+                            <div class="button">HTML</div>
+                        </label>
+                        <input type="checkbox" id="seventh" hidden>
+                        <div class="skill-content">
+                            <div class="inner">
+                                <p>O HTML é a linguagem base para se desenvolver qualquer site. É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -72,6 +120,8 @@
     </section>
     </main>
 </section>
+
+
 
 </body>
 </html>
