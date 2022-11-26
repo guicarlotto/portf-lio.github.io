@@ -153,6 +153,7 @@ div.skill {
     overflow: hidden;
     font-size: 1em;
     box-sizing: border-box;
+    text-align: left;
 }
 
 
