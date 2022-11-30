@@ -282,7 +282,7 @@ footer.footer-desk{
     backdrop-filter: blur(5px);
     border-radius:8px;
     padding: 15px 15px;
-    width: 100vh;
+    width: 100%;
     text-align: center;
     margin-bottom: 15px; 
 }
@@ -334,5 +334,17 @@ footer.footer-desk{
         display: flex;
         flex-direction: column;
         max-width: 100%;
-    }    
+    }
+    section.sobre-desk {
+        gap: 30px;
+        padding: 0px 0px 30px 0px;
+        
+    }
+    section.desk {
+        gap: 0px;
+        
+    }
+    footer.footer-desk{
+        margin-top: 20px;
+    }     
 }
