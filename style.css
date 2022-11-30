@@ -144,7 +144,7 @@ div.skill {
     background-color: #fcfcfc;
     border-radius: 8px;
     max-height: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
     overflow: hidden;
     font-size: 1em;
     box-sizing: border-box;
@@ -176,7 +176,7 @@ div.skill {
   }
   
   .progress-value1 {
-    animation: load1 3s normal forwards;
+    animation: load6 3s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -184,7 +184,7 @@ div.skill {
   }
 
   .progress-value2 {
-    animation: load2 5s normal forwards;
+    animation: load6 3s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -192,7 +192,7 @@ div.skill {
   }
 
   .progress-value3 {
-    animation: load3 5s normal forwards;
+    animation: load6 3s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -200,7 +200,7 @@ div.skill {
   }
 
   .progress-value4 {
-    animation: load4 5s normal forwards;
+    animation: load2 3s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -208,7 +208,7 @@ div.skill {
   }
 
   .progress-value5 {
-    animation: load5 5s normal forwards;
+    animation: load3 3s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -216,20 +216,13 @@ div.skill {
   }
 
   .progress-value6 {
-    animation: load1 5s normal forwards;
+    animation: load3 3s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
     width: 0;
   }
 
-  .progress-value7 {
-    animation: load6 5s normal forwards;
-    border-radius: 100px;
-    background: #6C95FF;
-    height: 5px;
-    width: 0;
-  }
   
   @keyframes load1 {
     0% { width: 0; }
@@ -276,9 +269,6 @@ div.skill {
     max-height: 600px;
 }
 #sixth:checked ~ .skill-content {
-    max-height: 600px;
-}
-#seventh:checked ~ .skill-content {
     max-height: 600px;
 }
 
