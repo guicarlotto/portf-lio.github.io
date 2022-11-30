@@ -29,16 +29,11 @@ p {
     width: 50px;
     height: 50px;
 }
+
    
 body {
-    background-image: url("./imgs/Perfil Profissional.webp");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: #F5F8FF;
+    background-image: linear-gradient(to bottom right, #F5F8FF,#DBE5FF);
 }
-
 section.desk {
     display: flex;
     flex-direction: column;
@@ -105,7 +100,7 @@ section.sobre-desk {
     flex-direction: column;
     gap: 60px;
     padding: 0px 0px 60px 0px;
-    width: 650px;
+    width: 1fr;
 }
 div.sobre-content{
     background: rgba(255, 255, 255, 0.75);
@@ -132,7 +127,7 @@ div.skills-group {
     border-radius:8px;
     padding: 15px 15px;
     gap: 15px;
-    width: 600px;
+    width: 1fr;
 }
 
 div.skill {
@@ -177,7 +172,7 @@ div.skill {
     padding: 0 2px;
     display: flex;
     height: 9px;
-    width: 575px;
+    width: 1fr;
   }
   
   .progress-value1 {
@@ -189,7 +184,7 @@ div.skill {
   }
 
   .progress-value2 {
-    animation: load2 3s normal forwards;
+    animation: load2 5s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -197,7 +192,7 @@ div.skill {
   }
 
   .progress-value3 {
-    animation: load3 3s normal forwards;
+    animation: load3 5s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -205,7 +200,7 @@ div.skill {
   }
 
   .progress-value4 {
-    animation: load4 3s normal forwards;
+    animation: load4 5s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -213,7 +208,7 @@ div.skill {
   }
 
   .progress-value5 {
-    animation: load5 3s normal forwards;
+    animation: load5 5s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -221,7 +216,7 @@ div.skill {
   }
 
   .progress-value6 {
-    animation: load1 3s normal forwards;
+    animation: load1 5s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -229,7 +224,7 @@ div.skill {
   }
 
   .progress-value7 {
-    animation: load6 3s normal forwards;
+    animation: load6 5s normal forwards;
     border-radius: 100px;
     background: #6C95FF;
     height: 5px;
@@ -300,4 +295,54 @@ footer.footer-desk{
     width: 100vh;
     text-align: center;
     margin-bottom: 15px; 
+}
+
+@media (max-width:720px){
+    .logo{
+        width:100px;
+        height:100px;
+    }
+        
+    section.header-desk{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-bar-desk {
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    div.icons {
+        vertical-align: center;
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: 900;
+        color: #6C95FF;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 3em;
+        font-weight: 900;
+        color: #6C95FF;
+    }
+    
+    p {
+        font-size: 0.8em;
+        font-weight: 400;
+        color: #222;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }    
 }
