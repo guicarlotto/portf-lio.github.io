@@ -32,7 +32,7 @@ p {
 
    
 body {
-    background-image: linear-gradient(to bottom right, #F5F8FF,#DBE5FF);
+    background: url(./imgs/perfil-profissional.webp) no-repeat right fixed, linear-gradient(90deg, #f7f8fc,#DBE5FF);
 }
 section.desk {
     display: flex;
@@ -287,7 +287,13 @@ footer.footer-desk{
     margin-bottom: 15px; 
 }
 
+@media (max-width:1400px){
+    body {
+        background: linear-gradient(90deg, #f7f8fc,#DBE5FF)
+    }
+}
 @media (max-width:720px){
+    
     .logo{
         width:100px;
         height:100px;
